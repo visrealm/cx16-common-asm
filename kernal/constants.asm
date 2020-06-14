@@ -11,6 +11,8 @@
 
 CMN_KERNAL_CONSTANTS_ASM_ = 1
 
+!cpu 65c02
+
 ; temporary address used where self-modifying code will update an instruction
 SELF_MODIFY_MSB_ADDR = $ee00
 SELF_MODIFY_ADDR     = $eeee
